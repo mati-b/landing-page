@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    height: 100vh;
+    
+    font-family: Roboto, sans-serif;
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header {
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-size: 18px;
+
+} 
+
+.first-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    padding-right: 10px;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    margin: 8px;
+}
+
+h1 {
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+.first-main2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px;
+}
+
+.first-main3 {
+    flex-wrap: wrap;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.button1 {
+    color: #f9faf8;
+    background-color: #3882f6;
+    border-radius: 8px;
+    font-family: Roboto, sans-serif;
+    border: none;
+    padding: 8px 16px;
+}
+
+.second-main {
+    display: flex;
+    flex-direction: column;
+}
+
+.info2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 48px;
+    font-size: 32px;
+    color: #1f2937;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.card {
+    
+    padding: 16px;
+    margin: 16px; 
+    display: flex;
+    
+    align-items: center;
+    flex-shrink: 1;
+}
+
+img {
+    width: 300px;
+    border-radius: 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.phrase {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 80px;
+    background-color: #e5e7eb;
+
+}
+
+.texto {
+    font-size: 36px;
+    font-family: light italic;
+    color: #1f2937;
+}
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    margin: 80px 150px 80px 150px;
+    width: 600px;
+    padding: 35px;
+    background-color: #3882f6;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    justify-content: space-around;
+    border-radius: 15px;
+    gap: 15px;
+}
+
+.button2 {
+    color: #f9faf8;
+    background-color: #3882f6;
+    border-radius: 8px;
+    font-family: Roboto, sans-serif;
+    align-self: center;
+    padding: 5px 25px 5px 25px;
+    border-color: #F9FAF8;
+    padding: 8px 16px;
+}
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    color: #F9FAF8;
+    
+}
